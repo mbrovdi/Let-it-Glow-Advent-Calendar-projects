@@ -30,10 +30,10 @@ A collection of daily projects from the "Let it Glow Maker Advent Calendar" usin
 - [Adafruit NeoPixel library](https://github.com/adafruit/Adafruit_NeoPixel)
 - Additional libraries as noted in each day's code
 
-## License
+## Large File Notice
 
-MIT
+Due to GitHub file size limits, the complete project file is hosted externally.  
+[Download the full file here](https://drive.google.com/your-file-link)
 
----
 
 Happy making!
