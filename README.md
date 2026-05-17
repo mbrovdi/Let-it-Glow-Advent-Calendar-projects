@@ -33,7 +33,7 @@ A collection of daily projects from the "Let it Glow Maker Advent Calendar" usin
 ## Large File Notice
 
 Due to GitHub file size limits, the complete project file is hosted externally.  
-[Download the full file here](https://drive.google.com/your-file-link)
+Download the full file here: ([https://drive.google.com/your-file-link]([https://docs.google.com/document/d/1eD8xY6yNk4HLKHv8ewFLT04_JmGOyGIBfQIU5fW4w-A/edit?tab=t.0)](https://docs.google.com/document/d/1eD8xY6yNk4HLKHv8ewFLT04_JmGOyGIBfQIU5fW4w-A/edit?tab=t.0))
 
 
 Happy making!
