@@ -1,0 +1,5 @@
+Challenges Faced
+
+One of the biggest challenges during this project was getting the LCD display to work correctly. At first, I powered the LCD with 5V, but that voltage was too high for my specific module. I then switched to another Arduino board and powered the LCD from 3.3V instead.
+
+Even with 3.3V, the text was still very faint. After troubleshooting and researching, I realized the contrast needed adjustment. My LCD did not include a built-in contrast potentiometer, so I connected the A0 contrast pin (also labeled VO or V0) directly to 3.3V. That made the text much more visible.
