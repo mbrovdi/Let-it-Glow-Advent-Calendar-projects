@@ -55,3 +55,8 @@ The project covers:
 
 - Addressable LEDs have directional data flow; verify `Data IN` and `Data OUT` orientation.
 - Always share ground between Arduino and LEDs.
+
+## Images
+
+![Day 6 Picture 1](../../image/Day%206,%20picture%201.png)
+![Day 6 Picture 2](../../image/Day%206,%20picture%202.png)

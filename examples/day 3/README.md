@@ -50,3 +50,7 @@ The project demonstrates:
 
 - Verify button orientation before wiring.
 - Use proper resistor values to protect the LED.
+
+## Images
+
+![Day 3 Setup](../../image/Day%203.png)

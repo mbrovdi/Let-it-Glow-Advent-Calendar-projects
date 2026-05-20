@@ -41,3 +41,7 @@ In this project, you will:
 ## Learning Outcome
 
 This activity demonstrates core Arduino concepts: digital output, timing with `delay()`, and safe LED wiring with a resistor.
+
+## Images
+
+![Day 2 Setup](../../image/Day%202.png)

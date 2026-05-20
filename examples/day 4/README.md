@@ -52,3 +52,8 @@ The sketch includes:
 
 - Confirm the bar graph pin orientation before wiring.
 - Use the resistor network's marked common pin correctly to avoid short circuits.
+
+## Images
+
+![Day 4 Picture 1](../../image/Day%204,%20picture%201.png)
+![Day 4 Picture 2](../../image/Day%204,%20picture%202.png)

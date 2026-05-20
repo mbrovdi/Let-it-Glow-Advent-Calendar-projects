@@ -65,3 +65,9 @@ Resistor-network common dot pin connects to `GND`.
 - Confirm bar graph and DIP switch orientation before wiring.
 - Keep grounds common between all components.
 
+## Images
+
+![Day 5 Picture 1](../../image/Day%205,%20picture%201.png)
+![Day 5 Picture 2](../../image/Day%205,%20picture%202.png)
+![Day 5 Picture 3](../../image/Day%205,%20picture%203.png)
+

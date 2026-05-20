@@ -44,3 +44,8 @@ In this project, you will:
 
 - If values move in reverse, swap the two outer potentiometer pins.
 - Confirm shared ground between Arduino and LEDs.
+
+## Images
+
+![Day 7 Picture 1](../../image/Day%207,%20picture%201.png)
+![Day 7 Picture 2](../../image/Day%207,%20picture%202.png)

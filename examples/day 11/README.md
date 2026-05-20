@@ -1,28 +1,3 @@
-Day #11: Merry Membrane!
-
-In this project you will learn how to wire and program a 4-way membrane keypad for interactive control, use it to select patterns and colors on a 15-LED RGB strand, and implement a passcode system with a block LED indicator. 
-
-Components Used:
-
-Arduino MKR Zero 
-1x 4-way membrane keypad
-1x 15-LED addressable RGB dot strand 
-1x Block LED 
-Breadboard 
-Jumper wires 
-
-
-
-
-
-
-Circuit Connections 
-
-Membrane Keypad 
-
-
-Keypad Pin 
-Connect to Arduino 
 # Day 11: Merry Membrane
 
 This activity uses a 4-key membrane keypad to control patterns and colors on a 15-LED RGB strand. A block LED is used as an additional indicator for status or passcode feedback.
@@ -82,3 +57,10 @@ Install **Adafruit NeoPixel** in Arduino IDE Library Manager.
 
 - Verify keypad pin order before powering on.
 - If the strand flickers, recheck ground and data connections.
+
+## Images
+
+![Day 11 Picture 1](../../image/Day%2011,%20picture%201.png)
+![Day 11 Picture 2](../../image/Day%2011,%20picture%202.png)
+![Day 11 Picture 3](../../image/Day%2011,%20picture%203.png)
+![Day 11 Picture 4](../../image/Day%2011,%20picture%204.png)

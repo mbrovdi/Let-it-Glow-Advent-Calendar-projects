@@ -52,3 +52,10 @@ Install these libraries in Arduino IDE:
 
 - Confirm your sensor library matches the sensor used in your sketch.
 - Ensure `SDA` and `SCL` are connected to the MKR Zero I2C pins.
+
+## Images
+
+![Day 9 Picture 1](../../image/Day%209,%20picture%201.png)
+![Day 9 Picture 2](../../image/Day%209,%20picture%202.png)
+![Day 9 Picture 3](../../image/Day%209,%20picture%203.png)
+![Day 9 Picture 4](../../image/Day%209,%20picture%204.png)

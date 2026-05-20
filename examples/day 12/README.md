@@ -39,3 +39,11 @@ Install these libraries from Arduino IDE Library Manager:
 - I2C LCD modules can use different addresses (for example `0x27` or `0x3F`).
 - If text is not visible, adjust LCD contrast.
 - Confirm the selected board matches your physical board before uploading.
+
+## Images
+
+![Day 12 Picture 1](../../image/Day%2012,%20picture%201.png)
+![Day 12 Picture 2](../../image/Day%2012,%20picture%202.png)
+![Day 12 Picture 3](../../image/Day%2012,%20picture%203.png)
+![Day 12 Picture 4](../../image/Day%2012,%20picture%204.png)
+![Day 12 Picture 5](../../image/Day%2012,%20picture%205.png)

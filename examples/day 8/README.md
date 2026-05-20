@@ -43,3 +43,8 @@ Install **Adafruit NeoPixel** using Arduino IDE Library Manager.
 
 - Verify ring direction and `Data IN` label before wiring.
 - Keep wiring short and stable for reliable data signals.
+
+## Images
+
+![Day 8 Picture 1](../../image/Day%208,%20picture%201.png)
+![Day 8 Picture 2](../../image/Day%208,%20picture%202.png)

@@ -49,3 +49,9 @@ Install **Adafruit NeoPixel** in Arduino IDE Library Manager.
 
 - Verify strand wire labeling before connecting power.
 - Keep ground common between strand and Arduino.
+
+## Images
+
+![Day 10 Picture 2](../../image/Day%2010,%20picture%202.png)
+![Day 10 Picture 3](../../image/Day%2010,%20picture%203.png)
+![Day 10 Picture 4](../../image/Day%2010,%20picture%204.png)
