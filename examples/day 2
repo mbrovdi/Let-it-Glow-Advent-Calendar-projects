@@ -1,0 +1,24 @@
+Day #2 Lighting LEDs!
+
+This project investigates how an LED can be controlled using an Arduino MKR Zero microcontroller. The aim of the experiment is to observe how digital outputs from the board affect the behaviour of an LED, including turning it on, off, and creating flashing patterns. 
+LEDs are commonly used in electrical systems are indicators and visual signals, By programming the Arduino MKR Zero, different lighting behavior can be created and observed. 
+This project introduces basic electronics components such as LEDs, resistors, jumper wires, and breadboards while also developing programming skills using the Arduino IDE.
+
+Components Used:
+
+Arduino MKR Zero
+Breadboard
+LED
+220V resistor
+Jumper wires
+USB cable 
+Circuit Setup
+The LED was connected to digital pin 6 on the Arduino MKR Zero through a 220Ω resistor. The cathode (short leg) of the LED was connected to the GND pin.
+The resistor was used to limit current and protect the LED from damage.
+Observations
+When the code was uploaded successfully, the LED turned on and off repeatedly. The delay time affected the flashing speed:
+Longer delay values produced slower flashes
+Shorter delay values produced faster flashes
+The experiment demonstrated how digital signals from the microcontroller can control electronic components
+Conclusion
+The project successfully demonstrated how the Arduino MKR Zero can control an LED using simple programming techniques. The experiment helped develop understanding of basic electronics, digital outputs, loops, and timing functions in Arduino programming.
