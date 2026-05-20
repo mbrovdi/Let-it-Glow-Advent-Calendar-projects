@@ -1,35 +1,39 @@
-# Let-it-Glow-Advent-Calendar-projects
-A collection of Arduino MKR Zero projects from the "Let it Glow Maker Advent Calendar." Each day features a new hands-on activity using LEDs, sensors, keypads, and more, with code and wiring instructions.
-
-
 # Let it Glow Maker Advent Calendar (Arduino MKR Zero)
 
-A collection of daily projects from the "Let it Glow Maker Advent Calendar" using Arduino MKR Zero, NeoPixel LEDs, sensors, keypads, and more.
+This repository contains Arduino MKR Zero projects created for the Let it Glow Maker Advent Calendar. Each day introduces a new activity with code and circuit guidance.
 
-## Contents
+## Repository Structure
 
-- **Day 1–12:** Each folder contains the code and wiring instructions for that day's activity.
-- **Components:** Addressable RGB LEDs, NeoPixel ring, dot strand, slide potentiometer, temperature sensor, membrane keypad, and more.
+- `code/`: Day-by-day Arduino sketches and activity folders
+- `examples/`: Curated example folders and README guides
+- `image/`: Project images and media assets
 
-## How to Use
+## What You Will Build
 
-1. Open the folder for the desired day.
-2. Upload the `Arduino project` file to your computer.
-3. Follow the wiring instructions in the the file
-.
-
-## Highlights
-
-- **NeoPixel Patterns:** Spinning, bouncing, and color-changing effects.
-- **Sensor Integration:** Temperature, potentiometer, and keypad input.
-- **Interactive Projects:** Passcode system, color selectors, and more.
+- LED and bar graph lighting patterns
+- Interactive projects using buttons and keypads
+- Sensor-driven behaviors
+- NeoPixel animations and effects
 
 ## Requirements
 
 - Arduino MKR Zero
-- [Adafruit NeoPixel library](https://github.com/adafruit/Adafruit_NeoPixel)
-- Additional libraries as noted in each day's code
+- Arduino IDE
+- Breadboard, jumper wires, LEDs, and basic components
+- Adafruit NeoPixel library (for NeoPixel-based activities):
+	- https://github.com/adafruit/Adafruit_NeoPixel
 
+## Getting Started
 
+1. Open any activity folder for the day you want to run.
+2. Connect your Arduino MKR Zero and build the circuit from that activity.
+3. Open the corresponding `.ino` file in the Arduino IDE.
+4. Select board: **Arduino MKR Zero**.
+5. Select the correct COM port and upload.
 
-Happy making!
+## Notes
+
+- Wiring and required parts can vary by day.
+- Check each day folder README for activity-specific instructions.
+
+Happy making.
