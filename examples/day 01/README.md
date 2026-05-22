@@ -37,6 +37,35 @@ This page is the Arduino-first setup guide that mirrors the Day 1 onboarding ide
 
 This confirms your board, cable, drivers, and IDE are working.
 
+## Hello World in Arduino IDE
+
+Once Blink is working, open this sketch:
+- `examples/day 01/day_01_hello_world/day_01_hello_world.ino`
+
+Use it as a simple example of how Arduino IDE uploads code and prints text to the Serial Monitor.
+
+```cpp
+void setup() {
+	Serial.begin(9600);
+
+	while (!Serial) {
+	}
+
+	Serial.println("Hello World");
+}
+
+void loop() {
+}
+```
+
+How to test it:
+
+1. Open the sketch in Arduino IDE.
+2. Click Upload.
+3. Open Tools > Serial Monitor.
+4. Set the baud rate to 9600.
+5. Confirm that `Hello World` appears in the output window.
+
 ## Breadboard Basics (MKR Zero)
 
 - Use the 3.3V pin and GND rails from MKR Zero.
