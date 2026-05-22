@@ -3,6 +3,9 @@
 Welcome to Day 01.
 This page is the Arduino-first setup guide that mirrors the Day 1 onboarding ideas from the original Pi Pico kit flow.
 
+Original kit link:
+https://thepihut.com/blogs/raspberry-pi-tutorials/let-it-glow-advent-calendar-day-1-lets-get-started
+
 ## Goal for Day 01
 
 - Install and test the Arduino development environment
@@ -83,12 +86,26 @@ You learn the same electronics concepts through a different development style:
 - Pico path: usually MicroPython + Thonny, fast script iteration
 - Arduino path: C++ sketches + Arduino IDE, compile-upload embedded workflow
 
+## Pi Pico vs Arduino MKR Zero
+
+This project is interesting because the activities are similar, but the experience of building them is not.
+
+| Topic | Raspberry Pi Pico | Arduino MKR Zero |
+|---|---|---|
+| Development tool | Thonny | Arduino IDE |
+| Main language | MicroPython | Arduino C++ |
+| Workflow | Edit and run scripts quickly | Compile and upload sketches |
+| Voltage mindset | Commonly taught as a 3.3V board | MKR Zero is also a 3.3V board and should not receive 5V on GPIO pins |
+| Learning style | Fast experimentation | More embedded-style development |
+
+## Why That Comparison Matters
+
+- It shows how the same electronics idea can be taught through two different software workflows.
+- It helps beginners see the tradeoff between quick scripting and compile-upload embedded programming.
+- It makes the repo more than a set of examples: it becomes a practical comparison between platforms, tools, and hardware habits.
+- It gave me a way to reflect on what changes when you translate a Pico-oriented kit into Arduino code and wiring.
+
 Both are great. Seeing both in practice helps you understand tools, language tradeoffs, and hardware-level thinking.
-
-## Related Kit Context
-
-Original Day 1 inspiration:
-https://thepihut.com/blogs/raspberry-pi-tutorials/let-it-glow-advent-calendar-day-1-lets-get-started
 
 ## Next Step
 
