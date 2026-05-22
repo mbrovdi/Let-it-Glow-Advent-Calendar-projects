@@ -25,6 +25,9 @@ jobs:
         run: |
           arduino-cli lib update-index
           arduino-cli lib install "Adafruit NeoPixel"
+          arduino-cli lib install "Adafruit AHTX0"
+          arduino-cli lib install "DHT20"
+          arduino-cli lib install "LiquidCrystal I2C"
 
       - name: Compile all sketches
         shell: bash
