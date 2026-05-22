@@ -1,5 +1,10 @@
 # Let it Glow Maker Advent Calendar (Arduino MKR Zero)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+![Platform: Arduino MKR Zero](https://img.shields.io/badge/Platform-Arduino%20MKR%20Zero-00979D)
+![Language: Arduino C++](https://img.shields.io/badge/Language-Arduino%20C%2B%2B-00599C)
+![Project: Advent Calendar](https://img.shields.io/badge/Project-Advent%20Calendar-ff6f00)
+
 This repository contains Arduino MKR Zero projects created for the Let it Glow Maker Advent Calendar. Each day introduces a new activity with code and circuit guidance.
 
 ## Repository Structure
