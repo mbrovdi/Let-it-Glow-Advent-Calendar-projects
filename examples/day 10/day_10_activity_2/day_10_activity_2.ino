@@ -1,4 +1,4 @@
-Activity 2: Bouncing Light 
+// Activity 2: Bouncing Light
 
 #include <Adafruit_NeoPixel.h>
 
@@ -18,3 +18,16 @@ void setup() {
 void loop() {
   // Forward
   for (int i = 0; i < LED_COUNT; i++) {
+    strand.clear();
+    strand.setPixelColor(i, myColour);
+    strand.show();
+    delay(50);
+  }
+  // Backward
+  for (int i = LED_COUNT - 1; i >= 0; i--) {
+    strand.clear();
+    strand.setPixelColor(i, myColour);
+    strand.show();
+    delay(50);
+  }
+}

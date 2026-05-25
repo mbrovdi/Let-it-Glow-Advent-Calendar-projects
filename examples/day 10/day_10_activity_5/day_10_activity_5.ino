@@ -1,4 +1,4 @@
-Activity 5: Flashing Odds n’ Evens 
+// Activity 5: Flashing Odds n' Evens
 
 #include <Adafruit_NeoPixel.h>
 
@@ -18,3 +18,15 @@ void loop() {
   // Red evens, green odds
   for (int led = 0; led < LED_COUNT; led++) {
     if (led % 2 == 0) {
+      strand.setPixelColor(led, strand.Color(255, 0, 0));
+    } else {
+      strand.setPixelColor(led, strand.Color(0, 255, 0));
+    }
+  }
+  strand.show();
+  delay(500);
+
+  strand.clear();
+  strand.show();
+  delay(500);
+}

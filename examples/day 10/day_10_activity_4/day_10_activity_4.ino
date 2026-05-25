@@ -1,4 +1,4 @@
-Activity 4: Static Odds nEvens 
+// Activity 4: Static Odds nEvens
 
 #include <Adafruit_NeoPixel.h>
 
@@ -18,3 +18,9 @@ void setup() {
       strand.setPixelColor(led, strand.Color(255, 0, 0)); // Red for even
     } else {
       strand.setPixelColor(led, strand.Color(0, 255, 0)); // Green for odd
+    }
+  }
+  strand.show();
+}
+
+void loop() {}

@@ -1,4 +1,4 @@
-Activity 1: Simple strand Test 
+// Activity 1: Simple strand Test
 #include <Adafruit_NeoPixel.h>
 
 #define STRAND_PIN 2

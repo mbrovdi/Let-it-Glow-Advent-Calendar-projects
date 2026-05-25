@@ -1,4 +1,4 @@
-Activity 3: Fading Pulse Effect 
+// Activity 3: Fading Pulse Effect
 
 #include <Adafruit_NeoPixel.h>
 
@@ -18,3 +18,13 @@ void loop() {
   for (int led = 0; led < LED_COUNT; led++) {
     for (int i = 255; i > 10; i--) {
       strand.setPixelColor(led, strand.Color(i, i, i)); // White pulse
+      strand.show();
+      delay(2);
+    }
+    for (int i = 10; i < 255; i++) {
+      strand.setPixelColor(led, strand.Color(i, i, i));
+      strand.show();
+      delay(2);
+    }
+  }
+}
