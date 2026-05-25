@@ -1,4 +1,4 @@
-Change the RGB LED color based on the potentiometer position 
+// Change the RGB LED color based on the potentiometer position
 #include <Adafruit_NeoPixel.h>
 
 #define LED_PIN    2
