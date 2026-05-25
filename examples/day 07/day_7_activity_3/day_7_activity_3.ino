@@ -1,4 +1,4 @@
-// Activity 3: Slider Fader
+// Slider Fader
 //
 // Fade the LED in and out by mapping the potentiometer value to brightness.
 
@@ -15,8 +15,9 @@ void setup() {
 }
 
 void loop() {
-  int potValue = analogRead(A0); // 0-1023
+  int potValue = analogRead(A1); // 0-1023
   int brightness = map(potValue, 0, 1023, 0, 255);
   strip.setPixelColor(0, strip.Color(0, 0, brightness)); // Blue fades
   strip.show();
+  delay(100);
 }

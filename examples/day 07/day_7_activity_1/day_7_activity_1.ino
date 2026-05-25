@@ -1,20 +1,13 @@
-Activity 1: Segment Testing 
-
-This code lights each segment in sequence, then turns all off. Use it to verify your wiring. 
-
-const int segments[5] = {13, 12, 11, 10, 9};
+// Reading the Potentiometer Value
+//
+// Print the analog value from the potentiometer to the Serial Monitor.
 
 void setup() {
-  for (int i = 0; i < 5; i++) {
-    pinMode(segments[i], OUTPUT);
-    digitalWrite(segments[i], LOW);
-  }
+  Serial.begin(9600);
 }
 
-
 void loop() {
-  // Light each segment one by one
-  for (int i = 0; i < 5; i++) {
-    digitalWrite(segments[i], HIGH);
-    delay(500);
-    digitalWrite(segments[i], LOW);
+  int potValue = analogRead(A1); // Use the analog pin you connected
+  Serial.println(potValue);
+  delay(300);
+}

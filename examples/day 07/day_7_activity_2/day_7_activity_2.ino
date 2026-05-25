@@ -1,18 +1,28 @@
-Activity 2: Button-Controlled Bar Graph 
+// Sliding Colour Changer
+//
+// Change the RGB LED color based on the potentiometer position.
 
-This code uses two buttons to increment or decrement the number of lit segments 
+#include <Adafruit_NeoPixel.h>
 
-const int redButtonPin = 2;
-const int greenButtonPin = 3;
-const int segments[5] = {13, 12, 11, 10, 9};
-int count = -1;
+#define LED_PIN    2
+#define NUM_LEDS   1
 
+Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
 
 void setup() {
-  pinMode(redButtonPin, INPUT_PULLDOWN);
-  pinMode(greenButtonPin, INPUT_PULLDOWN);
-  for (int i = 0; i < 5; i++) {
-    pinMode(segments[i], OUTPUT);
-    digitalWrite(segments[i], LOW);
+  strip.begin();
+  strip.show();
+}
+
+void loop() {
+  int potValue = analogRead(A1); // 0-1023 on Arduino
+  if (potValue <= 340) {
+    strip.setPixelColor(0, strip.Color(255, 0, 0)); // Red
+  } else if (potValue > 340 && potValue < 680) {
+    strip.setPixelColor(0, strip.Color(255, 150, 0)); // Amber
+  } else {
+    strip.setPixelColor(0, strip.Color(0, 255, 0)); // Green
   }
+  strip.show();
+  delay(100);
 }

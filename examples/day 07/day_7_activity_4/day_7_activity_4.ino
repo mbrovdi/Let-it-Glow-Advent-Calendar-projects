@@ -1,6 +1,6 @@
-Activity 4: Slider Flash Speed Control 
-
-Use the potentiometer to control the speed of a flashing, randomly colored LED 
+// Slider Flash Speed Control
+//
+// Use the potentiometer to control the speed of a flashing, randomly colored LED.
 
 #include <Adafruit_NeoPixel.h>
 
@@ -18,3 +18,16 @@ void setup() {
 void loop() {
   int potValue = analogRead(A1); // 0-1023
   int flashDelay = map(potValue, 0, 1023, 10, 1000); // 10ms to 1s
+
+  int g = random(0, 256);
+  int r = random(0, 256);
+  int b = random(0, 256);
+
+  strip.setPixelColor(0, strip.Color(r, g, b));
+  strip.show();
+  delay(flashDelay);
+
+  strip.setPixelColor(0, strip.Color(0, 0, 0));
+  strip.show();
+  delay(flashDelay);
+}
