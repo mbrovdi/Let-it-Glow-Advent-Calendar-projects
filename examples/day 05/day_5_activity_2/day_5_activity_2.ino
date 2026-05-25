@@ -1,5 +1,7 @@
-Activity 1: Single LED, Color Test
- 
+// Activity 1: Single LED, Color Test
+//
+// Cycle one RGB LED through blue, red, and green.
+
 #include <Adafruit_NeoPixel.h>
 
 #define LED_PIN    2   // Data IN connected to D2
@@ -13,7 +15,15 @@ void setup() {
 }
 
 void loop() {
-  // Blue
-  strip.setPixelColor(0, strip.Color(0, 0, 255));
+  strip.setPixelColor(0, strip.Color(0, 0, 255)); // Blue
   strip.show();
   delay(1000);
+
+  strip.setPixelColor(0, strip.Color(255, 0, 0)); // Red
+  strip.show();
+  delay(1000);
+
+  strip.setPixelColor(0, strip.Color(0, 255, 0)); // Green
+  strip.show();
+  delay(1000);
+}

@@ -1,4 +1,6 @@
-Activity 2: Two LEDs, Light passing effect 
+// Activity 2: Two LEDs, Light Passing Effect
+//
+// Alternate red light between two LEDs to create a passing effect.
 
 #include <Adafruit_NeoPixel.h>
 
@@ -17,4 +19,15 @@ void setup() {
 }
 
 void loop() {
-  // Fade in LED1 (red)
+  led1.setPixelColor(0, led1.Color(255, 0, 0));
+  led2.setPixelColor(0, led2.Color(0, 0, 0));
+  led1.show();
+  led2.show();
+  delay(300);
+
+  led1.setPixelColor(0, led1.Color(0, 0, 0));
+  led2.setPixelColor(0, led2.Color(255, 0, 0));
+  led1.show();
+  led2.show();
+  delay(300);
+}
