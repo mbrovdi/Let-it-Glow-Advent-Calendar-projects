@@ -1,6 +1,7 @@
-Activity 3: Slider Fader 
+// Activity 3: Slider Fader
+//
+// Fade the LED in and out by mapping the potentiometer value to brightness.
 
-Fade the LED in and out by mapping the potentiometer value to brightness
 #include <Adafruit_NeoPixel.h>
 
 #define LED_PIN    2
@@ -14,7 +15,8 @@ void setup() {
 }
 
 void loop() {
-  int potValue = analogRead(A1); // 0-1023
+  int potValue = analogRead(A0); // 0-1023
   int brightness = map(potValue, 0, 1023, 0, 255);
   strip.setPixelColor(0, strip.Color(0, 0, brightness)); // Blue fades
   strip.show();
+}
