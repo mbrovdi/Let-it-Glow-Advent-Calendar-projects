@@ -1,19 +1,7 @@
-Activity #1: Test program&tweaks
-
-The first Arduino activity was similar to the original Raspberry Pi task and was used to verify that all wires and connections are working properly. A simple program was uploaded to display text on the LCD screen. The LCD successfully showed the message “Hello, World!”, on the first row of LCD whilst printing text in the shell window. 
-
-Setting the contrast: 
-
-For this activity a potentiometer was used to control the LCD contrast, the first pin of the potentiometer was connected to Arduino 5V, the middle pin was connected to the LCD J3 pin, and the last pin was connected to Arduino GND. 
-LCD display connected to the Arduino: 
-
-VCC connected to 5V
-GND connected to GND 
-SDA connected to A4
-SCL connected to A5
-
-Code: 
-
+// Activity 1: Test program & tweaks
+//
+// Display "Hello, World!" on an I2C LCD screen.
+// LCD wiring: VCC -> 5V, GND -> GND, SDA -> A4, SCL -> A5
 
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>

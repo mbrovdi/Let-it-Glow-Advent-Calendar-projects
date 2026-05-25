@@ -1,4 +1,6 @@
-Activity #4. Strand colour display 
+// Activity 4: Strand colour display
+//
+// Cycle an LED strand through a set of colours and display the name on the LCD.
 
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>

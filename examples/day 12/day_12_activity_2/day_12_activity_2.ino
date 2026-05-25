@@ -1,14 +1,6 @@
-The Activity #2: The everything script!
-
-For the second activity, the same parts were used, but the code was updated to make the letters shift to the left side every second. After that, all letters disappear, wait for 2 seconds, and then the original text reappears in the middle and repeats the animation. 
-
-
-Code:
-
-For the second activity, the same parts were used, but the code was updated to make the letters shift to the left side every second. After that, all letters disappear, wait for 2 seconds, and then the original text reappears in the middle and repeats the animation. 
-
-
-Code:
+// Activity 2: The everything script!
+//
+// Scroll text left across the LCD, then clear and repeat.
 
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>

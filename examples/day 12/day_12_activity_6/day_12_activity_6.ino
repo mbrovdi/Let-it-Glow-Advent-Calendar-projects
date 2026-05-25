@@ -1,4 +1,6 @@
-Activity #6: Scrolling text!
+// Activity 6: Scrolling text!
+//
+// Continuously scroll a message across a 16x2 I2C LCD.
 
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>

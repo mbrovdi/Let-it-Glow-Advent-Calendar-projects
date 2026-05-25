@@ -1,8 +1,7 @@
+// Activity 3: Highest/Lowest Temperature Display
+//
+// Read temperature from DHT20 and track highest and lowest values on an I2C LCD.
 
-Activity #3: Highest/Lowest Temperature Display Using Arduino MKR Zero 
-
-  
-The code for Arduino MKR Zero:
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 #include <DHT20.h>

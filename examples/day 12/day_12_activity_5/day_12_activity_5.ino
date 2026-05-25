@@ -1,5 +1,6 @@
-Activity #5: The random colour finder
-
+// Activity 5: The random colour finder
+//
+// Generate a random RGB colour, display it on the LED strand and on the LCD.
 
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
@@ -54,6 +55,6 @@ void loop() {
   // B value
   lcd.setCursor(12, 1);
   lcd.print(b);
-}
 
   delay(5000); // Wait 5 seconds before next color
+}
