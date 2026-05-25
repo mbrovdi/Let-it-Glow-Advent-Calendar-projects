@@ -1,6 +1,6 @@
-Activity 3: Sequential Lighting with delay 
-
-Light up 0,3,6,9 one after another:
+// Activity 3: Sequential Lighting with delay
+//
+// Light 0, 3, 6, 9 one after another.
 
 #include <Adafruit_NeoPixel.h>
 
@@ -13,8 +13,17 @@ void setup() {
   ring.begin();
   ring.clear();
   ring.show();
-  delay(1000);
+}
 
+void loop() {
   int myleds[] = {0, 3, 6, 9};
+  ring.clear();
+
   for (int i = 0; i < 4; i++) {
-    ring.setPixelColor(myleds[i], ring.Color(0, 0, 10));
+    ring.setPixelColor(myleds[i], ring.Color(0, 0, 10)); // Blue
+    ring.show();
+    delay(250);
+  }
+
+  delay(400);
+}

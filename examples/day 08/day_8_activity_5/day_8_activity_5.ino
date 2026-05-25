@@ -1,6 +1,6 @@
-Activity 5: Bouncing Lights 
-
-Bounce a purple LED back and forth 
+// Activity 5: Bouncing Lights
+//
+// Bounce a purple LED back and forth.
 
 #include <Adafruit_NeoPixel.h>
 
@@ -13,8 +13,20 @@ void setup() {
   ring.begin();
   ring.clear();
   ring.show();
-  delay(1000);
 }
 
 void loop() {
-  // Forward
+  for (int i = 0; i < NUM_LEDS; i++) {
+    ring.clear();
+    ring.setPixelColor(i, ring.Color(10, 0, 10)); // Purple
+    ring.show();
+    delay(70);
+  }
+
+  for (int i = NUM_LEDS - 2; i > 0; i--) {
+    ring.clear();
+    ring.setPixelColor(i, ring.Color(10, 0, 10));
+    ring.show();
+    delay(70);
+  }
+}

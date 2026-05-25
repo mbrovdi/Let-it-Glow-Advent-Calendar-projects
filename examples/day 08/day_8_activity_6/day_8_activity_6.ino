@@ -1,5 +1,6 @@
-Activity 6: Double Random ring 
-Random LED, random color, fast:
+// Activity 6: Double Random ring
+//
+// Choose random LEDs and random colours rapidly.
 
 #include <Adafruit_NeoPixel.h>
 
@@ -12,9 +13,25 @@ void setup() {
   ring.begin();
   ring.clear();
   ring.show();
-  delay(1000);
   randomSeed(analogRead(0));
 }
 
 void loop() {
-  int randomled = random(0, NUM_LEDS);
+  int ledA = random(0, NUM_LEDS);
+  int ledB = random(0, NUM_LEDS);
+
+  uint8_t r = random(0, 256);
+  uint8_t g = random(0, 256);
+  uint8_t b = random(0, 256);
+
+  uint8_t r2 = random(0, 256);
+  uint8_t g2 = random(0, 256);
+  uint8_t b2 = random(0, 256);
+
+  ring.clear();
+  ring.setPixelColor(ledA, ring.Color(r, g, b));
+  ring.setPixelColor(ledB, ring.Color(r2, g2, b2));
+  ring.show();
+
+  delay(90);
+}

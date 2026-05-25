@@ -1,6 +1,6 @@
-Activity 4: Spinning lights (loop)
-
-Spin a single blue LED around the ring 
+// Activity 4: Spinning lights (loop)
+//
+// Spin a single blue LED around the ring.
 
 #include <Adafruit_NeoPixel.h>
 
@@ -13,8 +13,13 @@ void setup() {
   ring.begin();
   ring.clear();
   ring.show();
-  delay(1000);
 }
 
 void loop() {
-  int myleds[] = {0, 3, 6, 9};
+  for (int i = 0; i < NUM_LEDS; i++) {
+    ring.clear();
+    ring.setPixelColor(i, ring.Color(0, 0, 20)); // Blue
+    ring.show();
+    delay(100);
+  }
+}
