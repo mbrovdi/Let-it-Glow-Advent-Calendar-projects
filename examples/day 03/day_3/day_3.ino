@@ -18,3 +18,10 @@ void loop() {
 
   if (digitalRead(redButtonPin) == HIGH) {
     Serial.println("Light OFF");
+    digitalWrite(ledPin, LOW);
+  }
+  if (digitalRead(greenButtonPin) == HIGH) {
+    Serial.println("Light ON");
+    digitalWrite(ledPin, HIGH);
+  }
+}
