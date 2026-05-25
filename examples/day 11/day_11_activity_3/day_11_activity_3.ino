@@ -1,11 +1,6 @@
-Activity 3: Push to Flash (Block LED) 
-
-Use keypad to set flash speed for the block LED 
-
-On key press, set a flash variable to a different delay 
-While key is held, blink the block LED at the selected speed 
-
-Code: 
+// Activity 3: Push to Flash (Block LED)
+//
+// Use keypad input to control block LED flash speed.
 
 #define KEY1_PIN 11
 #define KEY2_PIN 10

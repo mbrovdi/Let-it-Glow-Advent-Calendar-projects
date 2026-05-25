@@ -1,9 +1,6 @@
-Activity 1: Test that each keypad is detected 
-
-Set D11, D10, D13, D12 as INPUT_PULLDOWN
-In loop, check each pin; print which button is pressed 
-
-Code:
+// Activity 1: Test that each keypad is detected
+//
+// Print which key is currently pressed.
 
 #define KEY1_PIN 11
 #define KEY2_PIN 10
@@ -16,4 +13,21 @@ void setup() {
   pinMode(KEY2_PIN, INPUT_PULLDOWN);
   pinMode(KEY3_PIN, INPUT_PULLDOWN);
   pinMode(KEY4_PIN, INPUT_PULLDOWN);
+}
+
+void loop() {
+  if (digitalRead(KEY1_PIN) == HIGH) {
+    Serial.println("Key 1 pressed");
+  }
+  if (digitalRead(KEY2_PIN) == HIGH) {
+    Serial.println("Key 2 pressed");
+  }
+  if (digitalRead(KEY3_PIN) == HIGH) {
+    Serial.println("Key 3 pressed");
+  }
+  if (digitalRead(KEY4_PIN) == HIGH) {
+    Serial.println("Key 4 pressed");
+  }
+
+  delay(100);
 }

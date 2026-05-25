@@ -1,12 +1,9 @@
-Activity 2: LED Strand Colour Selector 
+// Activity 2: LED Strand Colour Selector
+//
+// Use keypad buttons to choose color patterns on the LED strand.
 
-Use keypad to select color patterns for the RGB strand 
-Define color variables ( green, white, blue, yellow)
-On key press, call a function to fill even/odd LEDs with selected colours
+#include <Adafruit_NeoPixel.h>
 
-Code:
-
- #include <Adafruit_NeoPixel.h>
 #define STRAND_PIN 2
 #define LED_COUNT  15
 #define KEY1_PIN 11
