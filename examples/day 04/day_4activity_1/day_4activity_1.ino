@@ -1,6 +1,7 @@
-Activity 1: DIP Switch State Test 
+// Activity 1: DIP Switch State Test
+//
+// Print the ON/OFF state of each DIP switch every 5 seconds to the Serial Monitor.
 
-This code prints the ON/OFF state of each DIP switch every 5 seconds to the Serial Monitor 
 const int dipPins[5] = {6, 5, 4, 3, 2};
 
 void setup() {
@@ -18,3 +19,10 @@ void loop() {
       Serial.println(": ON");
     } else {
       Serial.print("Switch ");
+      Serial.print(i + 1);
+      Serial.println(": OFF");
+    }
+  }
+  Serial.println("-------------");
+  delay(5000);
+}

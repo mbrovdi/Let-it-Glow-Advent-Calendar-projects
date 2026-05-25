@@ -1,6 +1,6 @@
-Activity 2. DIP Switch Pin Value Debug 
-
-This code prints the raw digital value (0 or 1) of each DIP switch pin every seconds 
+// Activity 2: DIP Switch Pin Value Debug
+//
+// Print the raw digital value (0 or 1) of each DIP switch pin every second.
 
 const int dipPins[5] = {6, 5, 4, 3, 2};
 
@@ -18,3 +18,6 @@ void loop() {
     Serial.print(": ");
     Serial.println(digitalRead(dipPins[i]));
   }
+  Serial.println("-------------");
+  delay(1000);
+}
