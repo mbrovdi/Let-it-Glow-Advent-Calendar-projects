@@ -1,6 +1,6 @@
-Activity 1: Reading the Potentiometer Value 
-
-Print the analog value from the potentiometer to the Serial Monitor 
+// Activity 1: Reading the Potentiometer Value
+//
+// Print the analog value from the potentiometer to the Serial Monitor
 
 void setup() {
   Serial.begin(9600);
